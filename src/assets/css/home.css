@@ -9,11 +9,6 @@
   --lighten-grey: #737373;
 }
 
-::-webkit-scrollbar{
-  width: 0;
-  background: transparent;
-}
-
 .aside {
   z-index: 1;
   display: none;
@@ -283,6 +278,11 @@
   align-items: center;
   margin-top: 32.4px;
   overflow-x: auto;
+}
+
+.contributors::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
 .card-contributor {
